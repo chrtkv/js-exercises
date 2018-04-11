@@ -1,4 +1,4 @@
-export default (str) => {
+const reverseString = (str) => {
   const iter = (index, acc) => {
     if (str[index] === undefined) {
       return acc;
